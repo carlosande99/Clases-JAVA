@@ -26,6 +26,12 @@ public class Principal3 {
         String maullido2 = zafiron.maullar(6);
         System.out.println(maullido2);
 
+        String maullido3 = felix.maullar("Marramiaguhg!!!");
+        System.out.println(maullido3);
+
+        String maullido4 = mizifuz.maullar(5,"Marramiaughtttt!!!");
+        System.out.println(maullido4);
+
 
 
     }

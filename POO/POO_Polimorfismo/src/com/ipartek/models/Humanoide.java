@@ -49,8 +49,10 @@ public class Humanoide {
 
     /// ////////////////////////////////////////////////
 
-    public void cabalgar(){
-        System.out.println("Humanoide cabalgando");
+    public void cabalgar(Animal elAnimal){
+        System.out.println(this.getNombre() + " cabalgando a " + elAnimal.getNombre());
+
+        elAnimal.comer();
     }
 
 

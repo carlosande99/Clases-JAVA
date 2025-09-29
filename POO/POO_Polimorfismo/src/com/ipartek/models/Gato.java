@@ -70,8 +70,31 @@ public class Gato {
 
     public String maullar(){
 
-        return "miau miau";
+        return "miau!";
     }
+
+   // meaouw! marramiaught!! marramamiaguhttthhhh!!!
+
+    public String maullar(String maullido){
+
+        return maullido;
+    }
+
+
+    public String maullar(int nVeces, String maullido){
+
+        String maullidoFinal = "";
+
+        for( int i=1 ; i <= nVeces; i++){
+            //maullidoFinal = maullidoFinal + " miau!!!";
+            maullidoFinal += maullido;
+        }
+
+        return maullidoFinal.trim();
+
+    }
+
+
 
 
     public String maullar(int nVeces){
@@ -79,11 +102,11 @@ public class Gato {
         String maullidoFinal = "";
 
         for( int i=1 ; i <= nVeces; i++){
-
+            //maullidoFinal = maullidoFinal + " miau!!!";
             maullidoFinal += " miau!";
         }
 
-        return maullidoFinal;
+        return maullidoFinal.trim();
 
     }
 

@@ -29,6 +29,10 @@ public class Caballo extends Animal {
     /// ////////////////////////////////////
 
 
+    @Override
+    public void comer() {
+        System.out.println("caballo comiendo un fardo de paja");
+    }
 
 
 }

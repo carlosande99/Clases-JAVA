@@ -26,8 +26,8 @@ public class Animal{
     /// ///////////////////////////////////////
 
 
-    public void metodoAnimal(){
-        System.out.println("soy un mètodo de un animal");
+    public void comer(){
+        System.out.println("comiendo como animal");
     }
 
 

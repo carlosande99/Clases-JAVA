@@ -1,0 +1,15 @@
+package com.ipartek.objetos_mutables2;
+
+public class Persona {
+
+    private String nombre;
+
+    public Persona(String nombre) {
+        this.nombre = nombre;
+    }
+
+    @Override
+    public String toString() {
+        return this.nombre;
+    }
+}
